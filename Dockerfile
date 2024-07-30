@@ -1,3 +1,5 @@
+# 使用阿里云的镜像加速地址
+FROM registry.cn-hangzhou.aliyuncs.com/library/node:18-alpine3.18
 ARG NOTION_PAGE_ID
 # Install dependencies only when needed
 FROM node:18-alpine3.18 AS deps
