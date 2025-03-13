@@ -36,7 +36,7 @@ COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/.next/static ./.next/static
 
 # 个人仓库把将配置好的.env.local文件放到项目根目录，可自动使用环境变量
-COPY --from=builder /app/.env.production ./
+# COPY --from=builder /app/.env.production ./
 
 EXPOSE 3000
 
