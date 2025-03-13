@@ -1,7 +1,7 @@
 ARG NOTION_PAGE_ID
 ARG NEXT_PUBLIC_THEME
 
-FROM docker.1ms.run/node:18-alpine3.18 AS base
+FROM cbuqxu2o.mirror.aliyuncs.com/library/node:18-alpine3.18 AS base
 
 # 1. Install dependencies only when needed
 FROM base AS deps
